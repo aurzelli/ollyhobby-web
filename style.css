@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Georgia", serif;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: normal;
     background: #f2c276;
     color: #000;
     
@@ -13,6 +13,22 @@ header {
     color: black;
     padding: 10px;
     text-align: center;
+}
+
+nav {
+    ul {
+	font-family: "Courier", monospace;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+
+	li {
+	    font-weight: bold;
+	    padding: 1rem;
+	    background: #f2c250;
+	}
+    }
 }
 
 .container {
@@ -31,7 +47,11 @@ section {
 }
 
 #content {
-    max-width: 600px
+    max-width: 900px;
+}
+
+#content2 {
+    max-width: 900px;
 }
 
 button {
